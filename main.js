@@ -21,7 +21,7 @@ $("li.g").each(function(a,b){
   }else{
     console.log("Tar bort resultat " + a);
     $(b).css({"background-color":"#fbb","position":"relative"})
-      .animate({"left":"200px","opacity":"0"},5000)
+      .animate({"left":"200px","opacity":"0"},500)
       .animate({"height":"0px","opacity":"0", "margin":"0px"},300);
   }
 });
